@@ -1,0 +1,1 @@
+puts "Welcome to JuJutsu 101!"
