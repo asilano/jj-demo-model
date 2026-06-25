@@ -14,6 +14,6 @@ puts
 puts "Hi, #{name}! Great to have you on board."
 
 puts
-print "How old are you? "
+print "Please enter your birth year: "
 input = gets.strip
-output(input.to_i)
+output(2026 - input.to_i)
