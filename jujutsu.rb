@@ -16,4 +16,4 @@ puts "Hi, #{name}! Great to have you on board."
 puts
 print "How old are you? "
 input = gets.strip
-output(input)
+output(input.to_i)

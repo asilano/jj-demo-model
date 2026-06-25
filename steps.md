@@ -21,3 +21,6 @@
 * Show that `jj edit` on an older revision is no longer allowed
 
 * Make commit with: ask for and get age, call badly-named method to echo it.
+
+* Make commits to, within the method call:
+  * Convert to_i; change to using a year and calculating from 2026; store 2026 in a const
