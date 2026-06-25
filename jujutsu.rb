@@ -1,4 +1,5 @@
 #! /usr/bin/env ruby
+CURRENT_YEAR = 2026
 
 def output(value)
   puts "I've recorded your age as #{value}"
@@ -16,4 +17,4 @@ puts "Hi, #{name}! Great to have you on board."
 puts
 print "Please enter your birth year: "
 input = gets.strip
-output(2026 - input.to_i)
+output(CURRENT_YEAR - input.to_i)
