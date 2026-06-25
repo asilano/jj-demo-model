@@ -1,6 +1,6 @@
 #! /usr/bin/env ruby
 
-def output(value)
+def display_age(value)
   puts "I've recorded your age as #{value}"
 end
 
@@ -16,4 +16,4 @@ puts "Hi, #{name}! Great to have you on board."
 puts
 print "How old are you? "
 input = gets.strip
-output(input)
+display_age(input)
