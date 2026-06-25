@@ -19,3 +19,5 @@
 * `jj git push`, note and explain failure
 * `jj git push --allow-new`, note and explain Warning re immutable, so new
 * Show that `jj edit` on an older revision is no longer allowed
+
+* Make commit with: ask for and get age, call badly-named method to echo it.
