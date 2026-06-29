@@ -21,3 +21,18 @@
 * Show that `jj edit` on an older revision is no longer allowed
 
 * Make commit with: ask for and get age, call badly-named method to echo it.
+
+* Make commits to, within the method call:
+  * Convert to_i; change to using a year and calculating from 2026; store 2026 in a const
+  * Create a bookmark
+
+* On top of original branch, commit renaming method
+* `jj rebase -s <to_i-commit> -o <renaming-commit>` - it'll conflict
+* Show that the rebase _worked_, it just has conflicts in multi commits
+* `jj resolve -r ` to fix in the first commit. The fix doesn't propagate - `jj undo`, then `jj resolve` in head.
+
+* Talk about `jj undo`, and show `jj op log`, and `jj op restore`
+* Note that the op log includes the restore, so you can even undo a restore
+* `jj op restore` back to before the rebase, and do a merge instead (use bookmark)
+
+* Move bookmark (just `jj bookmark move main`) and push again
